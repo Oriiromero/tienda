@@ -3,8 +3,37 @@
     flex-wrap:wrap;
     gap: 30px;
     justify-content: center;
+    padding-bottom: 150px;
+    box-shadow: 1px 4px 4px #EAEAEA;
+}
+
+.gallery__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+}
+
+.gallery__box:hover {
+    transform: scale(1.1);
 }
 
 .gallery__box-image img{
-    border-radius: 10px;
+    border-radius: 20px;
+    width: 300px;
+}
+
+.gallery__box-description {
+    color: #3C4048;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.gallery__box-price {
+    color: #3C4048;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
 }
