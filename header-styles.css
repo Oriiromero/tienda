@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    width: 100vw;
+    color: #3C4048;
+}
+
+.header__option-f-m {
+    display: flex;
+    font-size: 15px;
+}
+
+.header__opition-f-m__fem, 
+.header__opition-f-m__masc {
+    margin: 5px;
+}
+
+.header__opition-f-m__fem p:hover {
+    color: black;
+    transition: 1s ease-in;
+}
+
+.header__opition-f-m__masc p:hover {
+    color: black;
+    transition: 1s ease-in;
+}
