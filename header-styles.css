@@ -5,16 +5,23 @@
 }
 
 .header {
+    padding: 2px;
+    box-shadow: 1px 4px 4px #EAEAEA;
+}
+
+header {
     display: flex;
     justify-content: space-between;
-    margin: 20px;
-    width: 100vw;
+    margin: 20px 0 20px 0;
+    width: 100%;
     color: #3C4048;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .header__option-f-m {
     display: flex;
     font-size: 15px;
+    margin-left: 10px;
 }
 
 .header__opition-f-m__fem, 
@@ -22,12 +29,99 @@
     margin: 5px;
 }
 
-.header__opition-f-m__fem p:hover {
+.header__opition-f-m__fem:hover {
     color: black;
-    transition: 1s ease-in;
+    font-weight: bold;
+    transform: scale(1.1);
+    transition: all 1s ease-in-out 0s;
+    cursor: pointer;
 }
 
 .header__opition-f-m__masc p:hover {
     color: black;
-    transition: 1s ease-in;
+    font-weight: bold;
+    transform: scale(1.1); 
+    transition: all 1s ease-in-out 0s;
+    cursor: pointer;
+}
+
+.header__title {
+    cursor: pointer;
+}
+
+.user {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 50px;
+}
+
+.user__searcher img{
+    width: 20px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.user__searcher input {
+    border-top: #3C4048;
+    border-right: #3C4048;
+    border-left: #3C4048;
+    height: 20px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+}
+
+.user__searcher input:focus {
+    outline: none;
+}
+
+.user__login {
+    margin-left: 15px;
+    margin-right: 10px;
+    transition: all 1s ease-in-out;
+}
+
+.user__shop {
+    margin-left: 10px;
+    transition: all 1s ease-in-out;
+}
+
+.user__login:hover {
+    transform: scale(1.1);
+}
+
+.user__shop:hover {
+    transform: scale(1.1);
+}
+
+.sub-text {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    padding: 10px;
+    color: #3C4048;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+}
+
+.below-title {
+    height: 30px;
+    position: absolute;
+    margin-right: 12%;
+}
+
+.other {
+    font-size: 12px;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 80%;
+}
+
+.view,
+ .order,
+  .filters {
+    margin: 0 9px 0 9px;
+}
+
+span {
+    color: #5CB8E4;
 }
