@@ -1,7 +1,6 @@
 /*NEWSLETTER*/
 .newsletter {
     margin: 40px 0 0 0;
-    height: 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -34,6 +33,10 @@
     border-bottom: 1px solid #3C4048;
     width: 400px;
     margin-bottom: 20px;
+}
+
+.newsletter__email input:focus {
+    outline: none;
 }
 
 .newsletter__email span {
