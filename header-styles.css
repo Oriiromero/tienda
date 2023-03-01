@@ -24,6 +24,29 @@ header {
     margin-left: 10px;
 }
 
+.header__opition-f-m__fem-ul {
+    position: absolute;
+    margin-top: 15px;
+    position: fixed;
+    z-index: 2;
+}
+
+.header__opition-f-m__fem-ul_li,
+.header__opition-f-m__fem__li {
+    padding: 5px;
+    list-style: none;
+    font-weight: 900;
+    font-size: 16px;
+}
+
+.header__opition-f-m__fem__li a {
+    color: #EB455F;
+}
+
+.header__opition-f-m__fem-ul_li a {
+    color: black;
+}
+
 .header__opition-f-m__fem, 
 .header__opition-f-m__masc {
     margin: 5px;
@@ -32,16 +55,12 @@ header {
 .header__opition-f-m__fem:hover {
     color: black;
     font-weight: bold;
-    transform: scale(1.1);
-    transition: all 1s ease-in-out 0s;
     cursor: pointer;
 }
 
 .header__opition-f-m__masc p:hover {
     color: black;
     font-weight: bold;
-    transform: scale(1.1); 
-    transition: all 1s ease-in-out 0s;
     cursor: pointer;
 }
 
@@ -77,12 +96,12 @@ header {
 .user__login {
     margin-left: 15px;
     margin-right: 10px;
-    transition: all 1s ease-in-out;
+    transition: all 1s ease;
 }
 
 .user__shop {
     margin-left: 10px;
-    transition: all 1s ease-in-out;
+    transition: all 1s ease;
 }
 
 .user__login:hover {
@@ -106,14 +125,15 @@ header {
 .below-title {
     height: 30px;
     position: absolute;
-    margin-right: 12%;
+    left: 500px;
 }
 
 .other {
     font-size: 12px;
     display: flex;
     justify-content: flex-end;
-    margin-left: 80%;
+    position: absolute;
+    left: 1230px;
 }
 
 .view,
